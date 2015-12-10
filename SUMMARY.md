@@ -3,4 +3,5 @@
 * [Renuo CMS Documentation](README.md)
 * [Overview](overview.md)
    * Architecture
+   * Design Decisions
 
