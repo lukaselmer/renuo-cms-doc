@@ -39,7 +39,7 @@ We want to be able to edit the content in-place for simplicity reasons.
 
 The data format should be arbitrary considering the API / data storage. On the client, we currently use HTML as data format. In the future, we may also support other formats like markdown.
 
-After long discussions we decided to use a WYSIWYG editor - namely the CKEDITOR. We use the [Advanced Content Filter](http://sdk.ckeditor.com/samples/acf.html) to filter out invalid HTML tags. We are very strict on which tags can be used, and the goal is that we can switch between WYSIWYG editors freely.
+In an ideal world there would be a simple WYSIWYG editor which is stable and produces markdown output. However, after long discussions, we decided to use a WYSIWYG editor - namely CKEDITOR. We use the [Advanced Content Filter](http://sdk.ckeditor.com/samples/acf.html) to filter out invalid HTML tags. We are very strict on which tags can be used, and the goal is that we can switch between WYSIWYG editors freely.
 
 ## Conclusion
 
