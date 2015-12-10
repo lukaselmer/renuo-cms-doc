@@ -1,5 +1,5 @@
 # Summary
 
-* [Introduction](README.md)
+* [Renuo CMS Documentation](README.md)
 * Overview
 
