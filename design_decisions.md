@@ -6,7 +6,7 @@ The CMS should be very simple to integrate for any website. Furthermore, the CMS
 
 ## Refactoring / Type Safety
 
-To have better refactoring tools available, we chose TypeScript which compiles to JavaScript
+To have better refactoring tools available, we chose TypeScript which compiles to JavaScript.
 
 ## Compilation Pipeline
 
@@ -15,7 +15,7 @@ We want
 * to use the latest ES2015 features when programming
 * that the code runs in browsers which only support ES5
 
-For these reasons, we use TypeScript (ES6), compile it to JS (ES6), and use babel to compile it so that it works in older browsers.
+For these reasons, we use TypeScript (ES6), compile it to JS (ES6), and use babel to compile it so that it works in older browsers (ES5).
 
 ## Simplify Publishing
 
@@ -25,7 +25,14 @@ We want to be able to update the CMS without updating each application which use
 
 We want that the viewing part of the CMS is very scalable and can be used by millions of users. Furthermore, it should be relatively cheap. This is why we use a CDN in front of our API (Amazon Cloudfront) when considering the reading / content loading part.
 
-The editing part doesn't have to be very calable at the moment. We use an API which is hosted on Heroku and is implemented in Ruby on Rails. This allows the API to be scaled later (add more dynos, add a stronger database).
+The editing part doesn't have to be very scalable at the moment. We use an API which is hosted on Heroku and is implemented in Ruby on Rails. This allows the API to be scaled later (add more dynos, add a stronger database).
+
+## Client Performance / Speed / Size
+
+The client part of the Renuo CMS must be slick, since it will be loaded by many clients for viewing. On the other hand, we don't want tor reinvent everything from scratch. Therefore, we follow the following strategy:
+
+* We require a jQuery-like interface, especially for the AJAX requests. This must be included before the Renuo CMS
+* We load the CKEDITOR dynamically from a CDN only when it is needed for editing.
 
 ## Frontend vs. Backend
 
