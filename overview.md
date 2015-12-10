@@ -1,6 +1,4 @@
 # Overview
 
-## Design Decisions
-
 ## Architecture
 
