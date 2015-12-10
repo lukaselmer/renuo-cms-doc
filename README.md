@@ -1,3 +1,4 @@
 # Renuo CMS Documentation
 
-Renuo CMS
+Published on https://renuo.gitbooks.io/renuo-cms-doc/content/
+
