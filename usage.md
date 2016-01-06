@@ -17,8 +17,7 @@ If you want to be able to edit the content block (only the admin should have thi
 <div data-content-path="some/path/to/some/content" data-api-host="//renuo-cms-api.dev:3000" data-api-key="aValidApiKey" data-private-api-key="AdminONLY"></div>
 ```
 
-The library will automagically initialize and manage the content blocks. If you want to reload the content blocks, you
-can use the following trigger:
+The library will automagically initialize and manage the content blocks. If you want to reload the content blocks, you can use the following trigger:
 
 ```js
 jQuery(document).trigger('renuo-cms-reload');
