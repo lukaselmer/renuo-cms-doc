@@ -46,9 +46,11 @@ If no paragraphs are present in the default content, then paragraphs are disable
 <div data-content-path="li-element" data-api-host="//renuo-cms-api.dev:3000" data-api-key="aValidApiKey" data-private-api-key="AdminONLY">
   <p>When paragraphs are present in the default content, then paragraphs are enabled.</p>
 </div>
+```
 
-<!-- TBD: do we need the following two options? -->
+TBD: do we need the following two options?
 
+```html
 <div data-content-paragraphs="true" data-content-path="li-element" data-api-host="//renuo-cms-api.dev:3000" data-api-key="aValidApiKey" data-private-api-key="AdminONLY">
   <h1>You can also manually enable paragraphs using the data-content-paragraphs="true" config.</h1>
 </div>
