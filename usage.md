@@ -38,7 +38,7 @@ The wysiwyg editor automatically inserts a ```<p>``` (paragraph) when editing co
 <ul class="special-ul">
   <li class="special-li">
     <div data-content-path="li-element" data-api-host="//renuo-cms-api.dev:3000" data-api-key="aValidApiKey" data-private-api-key="AdminONLY">
-If no paragraphs are present in the default content, then paragraphs are disabled.
+      If no paragraphs are present in the default content, then paragraphs are disabled.
     </div>
   </li>
 </ul>
