@@ -31,7 +31,6 @@ jQuery(document).trigger('renuo-cms-reload');
 
 The wysiwyg editor automatically inserts a <p> (paragraph) when editing content. In most cases this makes sense, since the edited text is semantically split into paragraphs. However, for certain blocks you don't want that the editable content is automatically wrapped in a paragraph. Consider the following example (including the solution):
 
-
 ```html
 <!-- By default, if no default content is set, paragraphs are enabled. -->
 <div data-content-path="li-element" data-api-host="//renuo-cms-api.dev:3000" data-api-key="aValidApiKey" data-private-api-key="AdminONLY"></div>
