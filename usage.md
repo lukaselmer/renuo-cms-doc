@@ -29,7 +29,7 @@ jQuery(document).trigger('renuo-cms-reload');
 
 ## Default content and paragaraphs in contents
 
-The wysiwyg editor automatically inserts a <p> (paragraph) when editing content. In most cases this makes sense, since the edited text is semantically split into paragraphs. However, for certain blocks you don't want that the editable content is automatically wrapped in a paragraph. Consider the following example (including the solution):
+The wysiwyg editor automatically inserts a ```<p>``` (paragraph) when editing content. In most cases this makes sense, since the edited text is semantically split into paragraphs. However, for certain blocks you don't want that the editable content is automatically wrapped in a paragraph. Consider the following example (including the solution):
 
 ```html
 <!-- By default, if no default content is set, paragraphs are enabled. -->
