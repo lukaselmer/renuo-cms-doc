@@ -1,7 +1,7 @@
 # Summary
 
 * [Renuo CMS Documentation](README.md)
-   * Usage
+   * [Usage](usage.md)
 * Overview
    * [Design Decisions](design_decisions.md)
    * [Architecture](architecture.md)
