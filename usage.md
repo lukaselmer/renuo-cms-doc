@@ -44,7 +44,7 @@ The wysiwyg editor by default automatically inserts a ```<p>``` (paragraph) when
 </div>
 ```
 
-We also considered the following, but currently we don't see a reason to implement it.
+We also considered the following way to override the automatic detection, but currently we don't see a reason to implement it.
 
 ```html
 <!-- This is not implemented --><div data-not-implemented-content-paragraphs="true" data-content-path="li-element" data-api-host="//renuo-cms-api.dev:3000" data-api-key="aValidApiKey" data-private-api-key="AdminONLY">
