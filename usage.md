@@ -35,21 +35,23 @@ The wysiwyg editor automatically inserts a ```<p>``` (paragraph) when editing co
 <!-- By default, if no default content is set, paragraphs are enabled. -->
 <div data-content-path="li-element" data-api-host="//renuo-cms-api.dev:3000" data-api-key="aValidApiKey" data-private-api-key="AdminONLY"></div>
 
-<ul><li>
-<div data-content-path="li-element" data-api-host="//renuo-cms-api.dev:3000" data-api-key="aValidApiKey" data-private-api-key="AdminONLY">
+<ul>
+  <li>
+    <div data-content-path="li-element" data-api-host="//renuo-cms-api.dev:3000" data-api-key="aValidApiKey" data-private-api-key="AdminONLY">
 If no paragraphs are present in the default content, then paragraphs are disabled.
-</div>
-</li></ul>
+    </div>
+  </li>
+</ul>
 
 <div data-content-path="li-element" data-api-host="//renuo-cms-api.dev:3000" data-api-key="aValidApiKey" data-private-api-key="AdminONLY">
-<p>When paragraphs are present in the default content, then paragraphs are enabled.</p>
+  <p>When paragraphs are present in the default content, then paragraphs are enabled.</p>
 </div>
 
 <div data-content-paragraphs="true" data-content-path="li-element" data-api-host="//renuo-cms-api.dev:3000" data-api-key="aValidApiKey" data-private-api-key="AdminONLY">
-You can also manually enable paragraphs using the data-content-paragraphs="true" config.
+  You can also manually enable paragraphs using the data-content-paragraphs="true" config.
 </div>
 
 <div data-content-paragraphs="false" data-content-path="li-element" data-api-host="//renuo-cms-api.dev:3000" data-api-key="aValidApiKey" data-private-api-key="AdminONLY">
-<p>You can also manually disable paragraphs using the data-content-paragraphs="false" config.</p>
+  <p>You can also manually disable paragraphs using the data-content-paragraphs="false" config.</p>
 </div>
 ```
