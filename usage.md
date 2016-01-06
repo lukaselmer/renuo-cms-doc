@@ -48,14 +48,16 @@ The wysiwyg editor automatically inserts a ```<p>``` (paragraph) when editing co
 </div>
 ```
 
-TBD: do we need the following two options?
+We also considered the following, but currently we don't see a reason to implement it.
 
 ```html
-<div data-content-paragraphs="true" data-content-path="li-element" data-api-host="//renuo-cms-api.dev:3000" data-api-key="aValidApiKey" data-private-api-key="AdminONLY">
+<!-- This is not implemented -->
+<div data-not-implemented-content-paragraphs="true" data-content-path="li-element" data-api-host="//renuo-cms-api.dev:3000" data-api-key="aValidApiKey" data-private-api-key="AdminONLY">
   <h1>You can also manually enable paragraphs using the data-content-paragraphs="true" config.</h1>
 </div>
 
-<div data-content-paragraphs="false" data-content-path="li-element" data-api-host="//renuo-cms-api.dev:3000" data-api-key="aValidApiKey" data-private-api-key="AdminONLY">
+<!-- This is not implemented -->
+<div data-not-implemented-content-paragraphs="false" data-content-path="li-element" data-api-host="//renuo-cms-api.dev:3000" data-api-key="aValidApiKey" data-private-api-key="AdminONLY">
   <p>You can also manually disable paragraphs using the data-content-paragraphs="false" config.</p>
 </div>
 ```
