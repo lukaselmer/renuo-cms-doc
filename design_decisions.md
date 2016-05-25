@@ -36,7 +36,7 @@ The client part of the Renuo CMS must be slick, since it will be loaded by many 
 
 ## Frontend vs. Backend
 
-We want to split up the frontend and backend, so that we can use the technologies we believe fit together well. The interface between the two parts are documented by Swagger [todo: ref to swagger doc].
+We want to split up the frontend and backend, so that we can use the technologies we believe fit together well. The interface between the two parts are documented by [Swagger](http://petstore.swagger.io/?url=https://renuo-cms-api-develop.herokuapp.com/swagger.yml).
 
 ## In-place Editor
 
