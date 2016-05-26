@@ -17,7 +17,7 @@ Require renuo-cms-client in your html:
 <script src="https://cdn.jsdelivr.net/renuo-cms-client/latest/renuo-cms-client.min.js"></script>
 ```
 
-Insert a ```<div>``` element with the data attribute block containing the content block path:
+Insert a ```<div>``` element with the data attribute block containing the content block path. In the following examples, ```"//renuo-cms-api.dev:3000"``` is a placeholder for the url your renuo-cms-api runs on:
 
 ```html
 <div data-content-path="some/path/to/some/content" data-api-host="//renuo-cms-api.dev:3000" data-api-key="aValidApiKey"></div>
