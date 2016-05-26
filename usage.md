@@ -1,5 +1,16 @@
 # Usage
 
+Set up your renuo-cms-api for your project:
+```rb
+CredentialPair.create(
+ private_api_key: "AdminONLY",
+ api_key: "aValidApiKey",
+ project_name: "some-project",
+ renuo_upload_api_key: "apiKeySetUpInRenuoUpload",
+ renuo_upload_signing_url: "urlOfRenuoUploadSigning"
+)
+```
+
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/renuo-cms-client/latest/renuo-cms-client.min.js"></script>
