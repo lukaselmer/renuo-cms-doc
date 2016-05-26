@@ -6,11 +6,12 @@ CredentialPair.create(
  private_api_key: "AdminONLY",
  api_key: "aValidApiKey",
  project_name: "some-project",
- renuo_upload_api_key: "apiKeySetUpInRenuoUpload",
- renuo_upload_signing_url: "urlOfRenuoUploadSigning"
+ renuo_upload_api_key: "apiKeyOfRenuoUpload",
+ renuo_upload_signing_url: "urlOfRenuoUploadSigning/generate_policy"
 )
 ```
 
+Require renuo-cms-client in your html:
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/renuo-cms-client/latest/renuo-cms-client.min.js"></script>
