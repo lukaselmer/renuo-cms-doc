@@ -5,5 +5,4 @@
    * [Design Decisions](design_decisions.md)
    * [Implementation](implementation.md)
 * [Usage](usage.md)
-   * [Installation](installation.md)
 
