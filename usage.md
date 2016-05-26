@@ -96,4 +96,5 @@ If you want the upload feature, following services are needed additiionally:
 * [Amazon Cloudfront-Service](https://aws.amazon.com/cloudfront/)
 * [Amazon s3 bucket](https://aws.amazon.com/s3/)
 
+Read more about the [renuo-upload](https://renuo.gitbooks.io/renuo-upload-doc/content/index.html).
 
