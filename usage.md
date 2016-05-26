@@ -74,3 +74,10 @@ We also considered the following way to override the automatic detection, but cu
   <p>You can also manually disable paragraphs using the data-content-paragraphs="false" config.</p>
 </div>
 ```
+
+## renuo-cms with rails
+
+
+The gem [renuo-cms-rails](https://github.com/renuo/renuo-cms-rails) provides simpler usage.
+
+
