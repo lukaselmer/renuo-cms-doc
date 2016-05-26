@@ -35,7 +35,7 @@ The library will automatically initialize and manage the content blocks. If you 
 jQuery(document).trigger('renuo-cms-reload');
 ```
 
-## Upload
+## Image-/File-Upload
 As soon as you set the following keys in you renuo-cms-api for your project, you can upload images with the editor:
 ```rb
 renuo_upload_api_key: "apiKeyOfRenuoUpload",
