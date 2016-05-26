@@ -78,6 +78,6 @@ We also considered the following way to override the automatic detection, but cu
 ## renuo-cms with rails
 
 
-The gem [renuo-cms-rails](https://github.com/renuo/renuo-cms-rails) provides simpler usage.
+The gem [renuo-cms-rails](https://github.com/renuo/renuo-cms-rails) provides simpler usage of the renuo-cms if you use it with rails.
 
 
