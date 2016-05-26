@@ -35,7 +35,14 @@ The library will automatically initialize and manage the content blocks. If you 
 jQuery(document).trigger('renuo-cms-reload');
 ```
 
-## Default content and paragraphs in contents
+## Upload
+As soon as you set the following keys in you renuo-cms-api for your project, you can upload images with the editor:
+```rb
+renuo_upload_api_key: "apiKeyOfRenuoUpload",
+renuo_upload_signing_url: "urlOfRenuoUploadSigning/generate_policy"
+```
+
+## Default content and paragaraphs in contents
 
 By default, the wysiwyg editor automatically inserts a ```<p>``` (paragraph) while the content is edited. In most cases this makes sense, since the edited text is semantically split into paragraphs. However, for certain blocks you don't want that the editable content is automatically wrapped in a paragraph. Consider the following example (including the solution):
 
