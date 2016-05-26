@@ -80,4 +80,20 @@ We also considered the following way to override the automatic detection, but cu
 
 The gem [renuo-cms-rails](https://github.com/renuo/renuo-cms-rails) provides simpler usage of the renuo-cms if you use it with rails.
 
+## Installation
+
+In case you want to use the renuo-cms and you don't have access to a running renuo-cms already, you need to set up the following web-services. The documentation on how to install each of them can be found on GitHub. The links billow will lead you to the projects on GitHub.
+
+* [renuo-cms-client](https://github.com/renuo/renuo-cms-client)
+* [renuo-cms-api](https://github.com/renuo/renuo-cms-api)
+
+If you want the upload feature, following services are needed additiionally:
+
+* [renuo-upload](https://github.com/renuo/renuo-upload)
+* [renuo-upload-signing](https://github.com/renuo/renuo-upload-signing)
+* [renuo-thumbs-proxy](https://github.com/renuo/renuo-thumbs-proxy)
+* [renuo-thumbor](https://github.com/renuo/renuo-thumbor)
+* [Amazon Cloudfront-Service](https://aws.amazon.com/cloudfront/)
+* [Amazon s3 bucket](https://aws.amazon.com/s3/)
+
 
