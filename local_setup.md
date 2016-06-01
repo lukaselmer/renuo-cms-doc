@@ -13,3 +13,5 @@ cd renuo-cms-api
 bin/setup
 ```
 
+### Install 
+
