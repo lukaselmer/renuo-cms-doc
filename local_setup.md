@@ -85,5 +85,11 @@ git clone git@github.com:renuo/renuo-cms-demo.git
 set up renuo cms to manage content blocks for the page
 
 ```rb
-
+CredentialPair.create(
+ private_api_key: "47DTrw46jNDtt53g56Hg5MMt5",
+ api_key: "T3i1A247Rd1",
+ project_name: "renuo-cms-demo",
+ renuo_upload_api_key: "apiKeyOfRenuoUpload",
+ renuo_upload_signing_url: "urlOfRenuoUploadSigning/generate_policy"
+)
 ```
