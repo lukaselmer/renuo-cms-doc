@@ -35,6 +35,9 @@ The library will automatically initialize and manage the content blocks. If you 
 jQuery(document).trigger('renuo-cms-reload');
 ```
 
+## Demo
+We provide a [demo web-page](https://github.com/renuo/renuo-cms-demo) that uses the renuo-cms without upload and without authentication. This means that you will always be able to edit the content, what isn't suggested to do in a real application. We used a free template and edited only the [html-part](https://github.com/renuo/renuo-cms-demo/blob/master/page1/index.html) to make use of the renuo-cms.
+
 ## Image-/File-Upload
 For the image-and file-upload the [renuo-upload](https://renuo.gitbooks.io/renuo-upload-doc/content/index.html) is used. You need to [set up the renuo-upload-signing](https://renuo.gitbooks.io/renuo-upload-doc/content/setup.html#set-up-renuo-upload-signing) for your project. 
 
