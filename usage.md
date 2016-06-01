@@ -87,7 +87,7 @@ In case you want to use the renuo-cms and you don't have access to a running ren
 * [renuo-cms-client](https://github.com/renuo/renuo-cms-client)
 * [renuo-cms-api](https://github.com/renuo/renuo-cms-api)
 
-If you want the upload feature, the renuo-upload is needed. It runs with following mini-services that need to be set up:
+If you want the upload feature, the [renuo-upload](https://renuo.gitbooks.io/renuo-upload-doc/content/index.html) is needed. It runs with following mini-services that need to be set up:
 
 * [renuo-upload](https://github.com/renuo/renuo-upload)
 * [renuo-upload-signing](https://github.com/renuo/renuo-upload-signing)
