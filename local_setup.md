@@ -95,13 +95,13 @@ CredentialPair.create(
  api_key: "T3i1A247Rd1",
  project_name: "renuo-cms-demo",
  renuo_upload_api_key: "h8934hghd389g89fh98h",
- renuo_upload_signing_url: "renuo-upload-signing.dev:3003/generate_policy"
+ renuo_upload_signing_url: "http://renuo-upload-signing.dev:3003/generate_policy"
 )
 ```
 
 navigate to the index.html of renuo-cms-demo and make a search/replace with:
 
-search https://renuo-cms-api-demo.herokuapp.com/ replace with: renuo-cms-api.dev:3002
+search https://renuo-cms-api-demo.herokuapp.com/ replace with: //renuo-cms-api.dev:3002
 
 ### Run All Applications
 
