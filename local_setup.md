@@ -65,4 +65,10 @@ click on "Show User Security Credentials" and you see your needed keys yeyy!! no
 
 ### Configure renuo-upload-signing
 
-
+Now you have to use the newly created bucket in your renuo-upload-signing. the S3_BUCKET_NAME needs the name you gave to your bucket when you set up you amazon S3 bucket. the CDN_HOST differs if you changed the location for example. the part behind the "/" will always be your bucket-name though. The S3_PUBLIC_KEY is the one you learned by heart before. Else you'll find it in the IAM of your amazon account. the same is with the S3_SECRET_KEY.
+```rb
+S3_BUCKET_NAME: 'renuo-upload-<yourname>-development'
+  S3_PUBLIC_KEY: 'your public key found in Amazon IAM'
+S3_SECRET_KEY: 'your secret key found in Amazon IAM'
+CDN_HOST: 's3.eu-central-1.amazonaws.com/renuo-upload-<yourname>-development' #without https://, just the domain
+```
