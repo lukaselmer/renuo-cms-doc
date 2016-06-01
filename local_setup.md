@@ -6,7 +6,10 @@ For developing you want to set up the renuo-cms and the renuo-upload locally. It
 
 ### Install renuo-cms-api
 
-1. Clone git repositiory:
+Clone git repositiory and run bin/setup:
 ```
 git clone git@github.com:renuo/renuo-cms-api.git
+cd renuo-cms-api
+bin/setup
 ```
+
