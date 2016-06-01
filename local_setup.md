@@ -102,3 +102,10 @@ CredentialPair.create(
 navigate to the index.html of renuo-cms-demo and make a search/replace with:
 
 search https://renuo-cms-api-demo.herokuapp.com/ replace with: renuo-cms-api.dev:3002
+
+### run all applications
+
+run renuo-upload-signing
+```
+bin/run
+```
