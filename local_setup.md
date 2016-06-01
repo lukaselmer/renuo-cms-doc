@@ -13,5 +13,11 @@ cd renuo-cms-api
 bin/setup
 ```
 
-### Install 
+### Install renuo-upload signing
+Clone git repository and run bin/setup:
+```
+
+cd renuo-upload-signing
+bin/setup
+```
 
