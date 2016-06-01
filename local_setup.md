@@ -49,4 +49,20 @@ and click on save, then on close and then on the blue save again
 
 ### Set UP Amazon IAM
 
+log in to amazon if you aren't already cause you just set up your s3 bucket
+
+navigate to IAM -> click on Identity & Access Management
+
+navigate to Users in the navigation on the left side
+
+click on the blue button with white writing in the form of "create user"
+
+enter your name into the first field
+
+press "create" which you'll find in the lower right corner its blue with white writing
+
+click on "Show User Security Credentials" and you see your needed keys yeyy!! now you learn them by heart, as you'll need them afterwards and because its a good training for your brain. you should do stuff like that several times a day to keep your brain fit.
+
+### Configure renuo-upload-signing
+
 
