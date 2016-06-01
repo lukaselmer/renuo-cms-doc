@@ -16,7 +16,7 @@ bin/setup
 ### Install renuo-upload signing
 Clone git repository and run bin/setup:
 ```
-
+git@github.com:renuo/renuo-upload-signing.git
 cd renuo-upload-signing
 bin/setup
 ```
