@@ -103,9 +103,16 @@ navigate to the index.html of renuo-cms-demo and make a search/replace with:
 
 search https://renuo-cms-api-demo.herokuapp.com/ replace with: renuo-cms-api.dev:3002
 
-### run all applications
+### Run All Applications
 
 run renuo-upload-signing
 ```
 bin/run
 ```
+
+run renuo-cms-api
+```
+bin/run
+```
+
+open index.html of renuo-cms-demo in your browser and hope that it works.
