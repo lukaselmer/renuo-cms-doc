@@ -5,5 +5,5 @@
    * [Design Decisions](design_decisions.md)
    * [Implementation](implementation.md)
 * [Usage](usage.md)
-* Local Setup
+* [Local Setup](local_setup.md)
 
