@@ -82,6 +82,11 @@ clone it to your local machine
 git clone git@github.com:renuo/renuo-cms-demo.git
 ```
 
+set up renuo-upload for your project
+```rb
+API_KEYS: {"key":"h8934hghd389g89fh98h","app_name":"renuo-cms-demo","env": "development"}
+```
+
 set up renuo cms to manage content blocks for the page
 
 ```rb
@@ -89,7 +94,11 @@ CredentialPair.create(
  private_api_key: "47DTrw46jNDtt53g56Hg5MMt5",
  api_key: "T3i1A247Rd1",
  project_name: "renuo-cms-demo",
- renuo_upload_api_key: "apiKeyOfRenuoUpload",
- renuo_upload_signing_url: "urlOfRenuoUploadSigning/generate_policy"
+ renuo_upload_api_key: "h8934hghd389g89fh98h",
+ renuo_upload_signing_url: "renuo-upload-signing.dev:3003/generate_policy"
 )
 ```
+
+navigate to the index.html of renuo-cms-demo and make a search/replace with:
+
+search https://renuo-cms-api-demo.herokuapp.com/ replace with: renuo-cms-api.dev:3002
