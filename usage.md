@@ -95,6 +95,7 @@ If you want the upload feature, following services are needed additionally:
 * [renuo-thumbor](https://github.com/renuo/renuo-thumbor)
 * [Amazon Cloudfront-Service](https://aws.amazon.com/cloudfront/)
 * [Amazon s3 bucket](https://aws.amazon.com/s3/)
+* [AWS Identity and Access Management (IAM)](https://aws.amazon.com/de/iam/)
 
 Read more about the [renuo-upload](https://renuo.gitbooks.io/renuo-upload-doc/content/index.html).
 
