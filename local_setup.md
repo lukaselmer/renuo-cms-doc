@@ -97,6 +97,8 @@ Insert this text to "Policy Document:
 }
 ```
 
+click on "Apply Policy"
+
 ### Configure renuo-upload-signing
 
 Now you have to use the newly created bucket in your renuo-upload-signing. the S3_BUCKET_NAME needs the name you gave to your bucket when you set up you amazon S3 bucket. the CDN_HOST differs if you changed the location for example. the part behind the "/" will always be your bucket-name though. The S3_PUBLIC_KEY needs the "Access Key ID" which is the one you learned by heart before. Else you'll find it in the IAM of your amazon account. the same is with the S3_SECRET_KEY which is the "Secret Access Key".
