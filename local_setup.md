@@ -89,13 +89,16 @@ If you already cloned the project, you can just pull the newest version and migr
 
 1.  Now click on your newly created IAM User and navigate to "Permissions". There you open the "Inline Policies" by clicking on the arrow beside it (if its not already opened)
 
-now click on the "click here" link in the "Inline Policies" section. 
+  ![Inline Policies](more-around-inline-policies.png)
+1.  Now click on the "click here" link in the "Inline Policies" section. 
 
-choose costum policy and click select
+1.  Choose "Custom Policy" and click select.
 
-Set the name of your Policy to something like: ```<yourname>-s3-policy```. 
+  ![Select Custom Policy](select-custom-policy.png)
 
-Insert this text to "Policy Document:
+1.  Set the name of your Policy to something like: ```<yourname>-s3-policy```. 
+
+1.  Insert this text to "Policy Document:
 ```json
 {
   "Statement": [
@@ -119,8 +122,11 @@ Insert this text to "Policy Document:
   ]
 }
 ```
+It should look like this:
 
-click on "Apply Policy"
+  ![New Policy](insert-new-policy.png)
+
+1.  Click on "Apply Policy"
 
 ### Configure renuo-upload-signing
 
