@@ -70,7 +70,9 @@ now click on the "click here" link in the "Inline Policies" section.
 
 choose costum policy and click select
 
-Insert this text:
+Set the name of your Policy to something like: ```<yourname>-s3-policy```. 
+
+Insert this text to "Policy Document:
 ```json
 {
   "Statement": [
