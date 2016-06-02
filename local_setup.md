@@ -1,38 +1,52 @@
 # Local Setup
 
-For developing you want to set up the renuo-cms and the renuo-upload locally. It must be set up once and can then be used by every application that uses the renuo-cms or the renuo-upload.
+For developing you want to set up the renuo-cms and the renuo-upload locally. They must be set up once and can then be used by every application that uses one or both of those services.
 
-## Step by Step manual
+## Step by Step Manual
 
 ### Install renuo-cms-api
 
 Clone git repositiory and run bin/setup:
+
 ```
 git clone git@github.com:renuo/renuo-cms-api.git
 cd renuo-cms-api
 bin/setup
 ```
 
+If you already cloned the project, you can just pull the newest version and migrate the database.
+
 ### Install renuo-upload signing
+
 Clone git repository and run bin/setup:
+
 ```
 git clone git@github.com:renuo/renuo-upload-signing.git
 cd renuo-upload-signing
 bin/setup
 ```
 
+If you already cloned the project, you can just pull the newest version and migrate the database.
+
 ### Set Up a Amazon S3 bucket
 
-sign in to amazon
+1.  Sign in to amazon
 
-navigate to s3 -> click on s3 icon
+1.  Navigate to S3 by clicking on the S3 icon:
 
-create new bucket -> click on blue button on top with text "create bucket"
+   ![S3-Icon](s3-icon.png)
 
-give it a name, we request to do something like renuo-upload-<yourname>-development, but you can choose whatever you want. and choose to place where your server should be. we usually use frankfurt.
+1.  Create new bucket by clicking on blue button on the top with text "create bucket":
 
-click on your project and navigate to Properties (right side of navigation). click on the Permission section to fold it out and click on the butten called "Add CORS Configuration".
-Insert this:
+    ![create bucket](create-bucket-button.png)
+
+1.  Name it however you like. We request to do something like ```renuo-upload-<yourname>-development``` and choose to place where your server should be. We usually use Frankfurt.
+
+      ![configure bucket](new-s3-bucket.png)
+
+1.  Click on your project and navigate to Properties (right side of navigation). ![](properties-button.png) Click on the Permission section for folding it out and click on the butten called "Add CORS Configuration".
+
+  Insert this:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
@@ -45,7 +59,7 @@ Insert this:
     </CORSRule>
 </CORSConfiguration>
 ```
-and click on save, then on close and then on the blue save again
+1.  Now click save, then close and after that the blue save button.
 
 ### Set UP Amazon IAM
 
