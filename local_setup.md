@@ -30,7 +30,7 @@ If you already cloned the project, you can just pull the newest version and migr
 
 ### Set Up a Amazon S3 bucket
 
-1.  Sign in to amazon
+1.  Log in to amazon
 
 1.  Navigate to S3 by clicking on the S3 icon:
 
@@ -63,22 +63,31 @@ If you already cloned the project, you can just pull the newest version and migr
 
 ### Set UP Amazon IAM
 
-log in to amazon if you aren't already cause you just set up your s3 bucket
+1.  Log in to amazon if you aren't already because you just set up your s3 bucket.
 
-navigate to IAM -> click on Identity & Access Management
+1.  Navigate to IAM by clicking on the "Identity & Access Management" icon:
 
-navigate to Users in the navigation on the left side
+  ![IAM-icon](IAM-icon.png)
 
-click on the blue button with white writing in the form of "create user"
+1.  Navigate to Users in the navigation on the left side.
 
-enter your name into the first field
+  ![Users in Navigation](users-in navigation.png)
 
-press "create" which you'll find in the lower right corner its blue with white writing
+1.  Click on the blue button with a white "create new users"-writing:
 
-click on "Show User Security Credentials" and you see your needed keys yeyy!! now you learn them by heart, as you'll need them afterwards and because its a good training for your brain. you should do stuff like that several times a day to keep your brain fit.
-No better download it and store it on a place which is secure.
+  ![Create New Users](better-create-new-users-button.png)
 
-now click on your newly created IAM User and navigate to "Permissions". There you open the "Inline Policies" by clicking on the arrow beside it (if its not already opened)
+1.  Enter your name into the first field.
+
+  ![Insert Your Name](insert-your-name.png)
+
+1.  Press "create" which you'll find in the lower right corner. It's blue with white writing:
+
+  ![Create Button](better-create-button.png)
+
+1.  Click on "Show User Security Credentials" and you see your needed keys. Download and store them in a secure place.
+
+1.  Now click on your newly created IAM User and navigate to "Permissions". There you open the "Inline Policies" by clicking on the arrow beside it (if its not already opened)
 
 now click on the "click here" link in the "Inline Policies" section. 
 
