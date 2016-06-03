@@ -130,7 +130,7 @@ It should look like this:
 
 ### Configure renuo-upload-signing
 
-Now you have to use the newly created bucket in your renuo-upload-signing by setting following keys in the *.emv*-File:
+Now you have to use the newly created bucket in your renuo-upload-signing by setting following keys in the *.env*-File:
 
 -  **S3_BUCKET_NAME:** needs the name you gave to your bucket.
 -  **CDN_HOST** differs if you changed the bucket-location for example. The part after the ```/``` will always be your bucket-name though.
