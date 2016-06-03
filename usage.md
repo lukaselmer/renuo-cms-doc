@@ -23,7 +23,7 @@ The library will automagically initialize and manage the content blocks. If you 
 jQuery(document).trigger('renuo-cms-reload');
 ```
 
-## Default content and paragaraphs in contents
+## Default content and paragraphs in contents
 
 The wysiwyg editor by default automatically inserts a ```<p>``` (paragraph) when editing content. In most cases this makes sense, since the edited text is semantically split into paragraphs. However, for certain blocks you don't want that the editable content is automatically wrapped in a paragraph. Consider the following example (including the solution):
 
