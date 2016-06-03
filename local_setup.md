@@ -159,7 +159,7 @@ set up renuo-upload for your project
 API_KEYS: {"key":"h8934hghd389g89fh98h","app_name":"renuo-cms-demo","env": "development"}
 ```
 
-set up renuo cms to manage content blocks for the page
+set up renuo-cms-api to manage content blocks for the page
 
 ```rb
 CredentialPair.create(
