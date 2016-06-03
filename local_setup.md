@@ -137,7 +137,7 @@ Now you have to use the newly created bucket in your renuo-upload-signing by set
 -  **S3_PUBLIC_KEY** needs the "Access Key ID" which you downloaded before.
 -  **S3_SECRET_KEY** needs the "Secret Access Key" which you downloaded before.
 
-The *.env* file can be adjusted after copying the template file *example.env* to *.env*
+The *.env* file exists after running `bin/setup` as a copy of *example.env*. Adjust it:
 
 ```rb
 S3_BUCKET_NAME: 'renuo-upload-<yourname>-development'
@@ -154,7 +154,7 @@ clone it to your local machine
 git clone git@github.com:renuo/renuo-cms-demo.git
 ```
 
-set up renuo-upload for your project
+set up renuo-upload-signing for your project i
 ```rb
 API_KEYS: {"key":"h8934hghd389g89fh98h","app_name":"renuo-cms-demo","env": "development"}
 ```
