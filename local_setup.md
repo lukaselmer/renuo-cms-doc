@@ -146,21 +146,18 @@ S3_SECRET_KEY: 'your secret key found in Amazon IAM'
 CDN_HOST: 's3.eu-central-1.amazonaws.com/renuo-upload-<yourname>-development' #without https://, just the domain
 ```
 
-### Set Up renuo-cms-demo as example project
+### Set Up renuo-cms-demo as Example Project
 
-clone it to your local machine
-
+1.  Clone it to your local machine:
 ```
 git clone git@github.com:renuo/renuo-cms-demo.git
 ```
-
-set up renuo-upload-signing for your project i
+1.  Configure it in renuo-upload-signing by adding this line to the file ```config/.env```:
 ```rb
 API_KEYS: {"key":"h8934hghd389g89fh98h","app_name":"renuo-cms-demo","env": "development"}
 ```
 
-set up renuo-cms-api to manage content blocks for the page
-
+1.  Configure it in renuo-cms-api. Open the console with ```rails c``` and write:
 ```rb
 CredentialPair.create(
  private_api_key: "47DTrw46jNDtt53g56Hg5MMt5",
@@ -171,20 +168,26 @@ CredentialPair.create(
 )
 ```
 
-navigate to the index.html of renuo-cms-demo and make a search/replace with:
+1.  Navigate to the ```index.html``` of renuo-cms-demo and make a search/replace with:
 
-search https://renuo-cms-api-demo.herokuapp.com/ replace with: //renuo-cms-api.dev:3002
+  -  search for ```https://renuo-cms-api-demo.herokuapp.com/``` 
+  -  replace with: ```//renuo-cms-api.dev:3002```
 
 ### Run All Applications
 
-run renuo-upload-signing
+1.  Run renuo-upload-signing
 ```
 bin/run
 ```
 
-run renuo-cms-api
+1.  Run renuo-cms-api
 ```
 bin/run
 ```
 
-open index.html of renuo-cms-demo in your browser and see how it works.
+1.  Run renuo-cms-demo. You can also run it with any server you like, as it is a static page. This is just an example:
+```
+cd page1
+php -S renuo-cms-demo.dev:8080
+```
+For making this work add the line: ```127.0.0.1 renuo-cms-demo.dev``` to your ```/etc/hosts``` file.
