@@ -6,7 +6,7 @@ For developing you want to set up the renuo-cms and the renuo-upload locally. Th
 
 ### Install renuo-cms-api
 
-Clone git repositiory and run bin/setup:
+Clone git repository and run bin/setup:
 
 ```
 git clone git@github.com:renuo/renuo-cms-api.git
@@ -85,7 +85,7 @@ If you already cloned the project, you can just pull the newest version and migr
 
   ![Create Button](better-create-button.png)
 
-1.  Click on "Show User Security Credentials" and you see your needed keys. Download and store them in a secure place.
+1.  Click on "Show User Security Credentials" and you see your needed keys. **IMPORTANT: **Download and store them in a secure place.
 
 1.  Now click on your newly created IAM User and navigate to "Permissions". There you open the "Inline Policies" by clicking on the arrow beside it (if its not already opened)
 
@@ -130,12 +130,14 @@ It should look like this:
 
 ### Configure renuo-upload-signing
 
-Now you have to use the newly created bucket in your renuo-upload-signing by setting following keys:
+Now you have to use the newly created bucket in your renuo-upload-signing by setting following keys in the *.emv*-File:
 
--  S3_BUCKET_NAME needs the name you gave to your bucket.
--  CDN_HOST differs if you changed the bucket-location for example. The part after the ```/``` will always be your bucket-name though.
--  S3_PUBLIC_KEY needs the "Access Key ID" which you downloaded before.
--  S3_SECRET_KEY needs the "Secret Access Key" which you downloaded before.
+-  **S3_BUCKET_NAME:** needs the name you gave to your bucket.
+-  **CDN_HOST** differs if you changed the bucket-location for example. The part after the ```/``` will always be your bucket-name though.
+-  **S3_PUBLIC_KEY** needs the "Access Key ID" which you downloaded before.
+-  **S3_SECRET_KEY** needs the "Secret Access Key" which you downloaded before.
+
+The *.env* file can be adjusted after copying the template file *example.env* to *.env*
 
 ```rb
 S3_BUCKET_NAME: 'renuo-upload-<yourname>-development'
