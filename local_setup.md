@@ -187,4 +187,4 @@ run renuo-cms-api
 bin/run
 ```
 
-open index.html of renuo-cms-demo in your browser and hope that it works.
+open index.html of renuo-cms-demo in your browser and see how it works.
