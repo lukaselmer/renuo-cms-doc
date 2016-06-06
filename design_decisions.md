@@ -48,7 +48,7 @@ The data format should be arbitrary considering the API / data storage. On the c
 
 In an ideal world there would be a simple WYSIWYG editor which is stable and produces markdown output. However, after long discussions, we decided to use a WYSIWYG editor - namely CKEDITOR. We use the [Advanced Content Filter](http://sdk.ckeditor.com/samples/acf.html) to filter out invalid HTML tags. We are very strict on which tags can be used, and the goal is that we can switch between WYSIWYG editors freely.
 
-## Data-Upload
+## File Upload
 
 For features like uploading images and use them on the web page, an upload service is needed. We decided to make use of the [Renuo-Upload](https://renuo.gitbooks.io/renuo-upload-doc/content/index.html) which is a service that we developed before.
 
