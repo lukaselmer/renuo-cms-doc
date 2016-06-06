@@ -172,6 +172,7 @@ CredentialPair.create(
  renuo_upload_signing_url: "http://renuo-upload-signing.dev:3003/generate_policy"
 )
 ```
+Replace ```<generated-key>``` with the key you generated and used in the renuo-upload-signing.
 
 1.  Navigate to the ```index.html``` of renuo-cms-demo and make a search/replace with:
 
