@@ -196,6 +196,6 @@ bin/run
 ```
 cd page1
 npm install http-server -g
-http-server .
+http-server . -a renuo-cms-demo.dev
 ```
 For making this work add the line: ```127.0.0.1 renuo-cms-demo.dev``` to your ```/etc/hosts``` file.
