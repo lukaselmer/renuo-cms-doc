@@ -40,7 +40,7 @@ If you already cloned the project, you can just pull the newest version and migr
 
     ![create bucket](create-bucket-button.png)
 
-1.  Name it however you like. We request to do something like ```renuo-upload-<yourname>-development``` and choose to place where your server should be. We usually use Frankfurt.
+1.  Give it a meaningful name. We suggest something like ```renuo-upload-local-<yourname>-development``` and choose to place where your server should be. We usually use Frankfurt.
 
       ![configure bucket](new-s3-bucket.png)
 
