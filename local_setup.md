@@ -157,9 +157,9 @@ CDN_HOST: 's3.eu-central-1.amazonaws.com/renuo-upload-<yourname>-development' #w
 ```
 git clone git@github.com:renuo/renuo-cms-demo.git
 ```
-1.  Configure it in renuo-upload-signing by adding this line to the file ```config/.env```:
+1.  Configure it in renuo-upload-signing by adding this line to the file ```config/.env```. For this you have to generate a key:
 ```rb
-API_KEYS: {"key":"h8934hghd389g89fh98h","app_name":"renuo-cms-demo","env": "development"}
+API_KEYS: {"key":"<generated-key>","app_name":"renuo-cms-demo","env": "development"}
 ```
 
 1.  Configure it in renuo-cms-api. Open the console with ```rails c``` and write:
@@ -168,7 +168,7 @@ CredentialPair.create(
  private_api_key: "47DTrw46jNDtt53g56Hg5MMt5",
  api_key: "T3i1A247Rd1",
  project_name: "renuo-cms-demo",
- renuo_upload_api_key: "h8934hghd389g89fh98h",
+ renuo_upload_api_key: "<generated-key>",
  renuo_upload_signing_url: "http://renuo-upload-signing.dev:3003/generate_policy"
 )
 ```
