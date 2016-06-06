@@ -138,7 +138,12 @@ Now you have to use the newly created bucket in your renuo-upload-signing by set
 -  **S3_SECRET_KEY** needs the "Secret Access Key" which you downloaded before.
 
 The *.env* file exists after running `bin/setup` as a copy of *example.env*. Adjust it:
+-  ```S3_BUCKET_NAME``` needs the name you gave to your bucket.
+-  ```CDN_HOST``` differs if you changed the bucket-location for example. The part after the ```/``` will always be your bucket-name though.
+-  ```S3_PUBLIC_KEY``` needs the "Access Key ID" which you downloaded before.
+-  ```S3_SECRET_KEY``` needs the "Secret Access Key" which you downloaded before.
 
+Insert this into the file ```config/.env```. Make sure it's ignored by git.
 ```rb
 S3_BUCKET_NAME: 'renuo-upload-<yourname>-development'
 S3_PUBLIC_KEY: 'your public key found in Amazon IAM'
