@@ -195,6 +195,8 @@ bin/run
 1.  Run renuo-cms-demo. You can also run it with any server you like, as it is a static page. This is just an example:
 ```
 cd page1
+npm install http-server -g
 php -S renuo-cms-demo.dev:8080
+http-server .
 ```
 For making this work add the line: ```127.0.0.1 renuo-cms-demo.dev``` to your ```/etc/hosts``` file.
