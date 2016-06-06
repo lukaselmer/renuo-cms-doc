@@ -36,12 +36,15 @@ jQuery(document).trigger('renuo-cms-reload');
 ```
 
 ## Demo
+
 We provide a [demo web-page](https://github.com/renuo/renuo-cms-demo) that uses the renuo-cms without upload and without authentication. This means that you will always be able to edit the content, what isn't suggested to do in a real application. We used a free template and edited only the [html-part](https://github.com/renuo/renuo-cms-demo/blob/master/page1/index.html) to make use of the renuo-cms.
 
-## Image-/File-Upload
+## File Upload
+
 For the image-and file-upload the [renuo-upload](https://renuo.gitbooks.io/renuo-upload-doc/content/index.html) is used. You need to [set up the renuo-upload-signing](https://renuo.gitbooks.io/renuo-upload-doc/content/setup.html#set-up-renuo-upload-signing) for your project. 
 
 As soon as you set the following keys in you renuo-cms-api for your project, you can upload images with the editor:
+
 ```rb
 renuo_upload_api_key: "apiKeyOfRenuoUpload",
 renuo_upload_signing_url: "urlOfRenuoUploadSigning/generate_policy"
@@ -80,8 +83,7 @@ We also considered the following way to override the automatic detection, but cu
 </div>
 ```
 
-## renuo-cms with rails
-
+## Renuo CMS with rails
 
 The gem [renuo-cms-rails](https://github.com/renuo/renuo-cms-rails) provides simpler usage of the renuo-cms if you use it with rails.
 
