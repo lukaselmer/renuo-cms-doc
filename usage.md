@@ -89,7 +89,7 @@ The gem [renuo-cms-rails](https://github.com/renuo/renuo-cms-rails) provides sim
 
 ## Installation
 
-In case you want to use the renuo-cms and you don't have access to a running renuo-cms already, you need to set up the following web-services. The documentation on how to install each of them can be found on GitHub. The links billow will lead you to the projects on GitHub.
+In case you want to use the renuo-cms and you don't have access to a running renuo-cms already, you need to set up the following web-services. The documentation on how to install each of them can be found on GitHub. The links below will lead you to the projects on GitHub.
 
 * [renuo-cms-client](https://github.com/renuo/renuo-cms-client)
 * [renuo-cms-api](https://github.com/renuo/renuo-cms-api)
