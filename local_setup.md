@@ -163,7 +163,8 @@ API_KEYS: {"key":"<generated-key>","app_name":"renuo-cms-demo","env": "developme
 ```
 
 1.  Configure it in renuo-cms-api. Open the console with ```rails c``` and write:
-```rb
+
+  ```rb
 CredentialPair.create(
  private_api_key: "47DTrw46jNDtt53g56Hg5MMt5",
  api_key: "T3i1A247Rd1",
