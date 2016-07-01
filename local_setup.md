@@ -44,7 +44,7 @@ If you already cloned the project, you can just pull the newest version and migr
 
       ![configure bucket](new-s3-bucket.png)
 
-1.  Click on your project and navigate to Properties (right side of navigation). ![](properties-button.png) Click on the Permission section for folding it out and click on the butten called "Add CORS Configuration".
+1.  Click on your project and navigate to Properties (right side of navigation). ![](properties-button.png) Expand the section "Permissions" and click on the button called "Add CORS Configuration".
 
   Insert this:
 ```xml
