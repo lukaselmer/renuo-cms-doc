@@ -18,7 +18,8 @@ If you already cloned the project, you can just pull the newest version and migr
 
 ### Install renuo-upload signing
 
-https://www.gitbook.com/book/renuo/renuo-upload-doc/edit#/edit/local-setup/local_setup.md
+Follow the instructions on:<br>
+https://renuo.gitbooks.io/renuo-upload-doc/content/local_setup.html
 
 ### Set Up renuo-cms-demo as Example Project (optional)
 
