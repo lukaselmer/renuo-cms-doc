@@ -50,7 +50,7 @@ In an ideal world there would be a simple WYSIWYG editor which is stable and pro
 
 ## File Upload
 
-For features like uploading images and use them on the web page, an upload service is needed. We decided to make use of the [Renuo-Upload](https://renuo.gitbooks.io/renuo-upload-doc/content/index.html) which is a service that we developed before.
+For features like uploading images and use them on the web page, an upload service is needed. We decided to make use of the [Renuo-Upload](https://renuo.gitbooks.io/renuo-upload-doc/content/index.html) which is a service that we developed before. Renuo Upload is a microservice which provides an easy way to upload and use uploaded files. Multiple files can be uploaded via drag and drop and can be stored on cloud-storages (for example on Amazon S3).
 
 ## Conclusion
 
