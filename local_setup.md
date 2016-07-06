@@ -151,7 +151,7 @@ S3_SECRET_KEY: 'your secret key found in Amazon IAM'
 CDN_HOST: 's3.eu-central-1.amazonaws.com/renuo-upload-<yourname>-development' #without https://, just the domain
 ```
 
-### Set Up renuo-cms-demo as Example Project
+### Set Up renuo-cms-demo as Example Project (optional)
 
 1.  Clone it to your local machine:
 ```
