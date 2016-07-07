@@ -36,7 +36,7 @@ The client part of the Renuo CMS must be slick, since it will be loaded by many 
 
 ## Frontend vs. Backend
 
-We want to split up the frontend and backend, so that we can use the technologies we believe fit together well. The interface between the two parts are documented by Swagger [todo: ref to swagger doc].
+We want to split up the frontend and backend, so that we can use the technologies we believe fit together well. The interface between the two parts are documented by [Swagger](http://petstore.swagger.io/?url=https://renuo-cms-api-develop.herokuapp.com/swagger.yml).
 
 ## In-place Editor
 
@@ -47,6 +47,10 @@ We want to be able to edit the content in-place for simplicity reasons.
 The data format should be arbitrary considering the API / data storage. On the client, we currently use HTML as data format. In the future, we may also support other formats like markdown.
 
 In an ideal world there would be a simple WYSIWYG editor which is stable and produces markdown output. However, after long discussions, we decided to use a WYSIWYG editor - namely CKEDITOR. We use the [Advanced Content Filter](http://sdk.ckeditor.com/samples/acf.html) to filter out invalid HTML tags. We are very strict on which tags can be used, and the goal is that we can switch between WYSIWYG editors freely.
+
+## File Upload
+
+For features like uploading images and use them on the web page, an upload service is needed. We decided to make use of the [Renuo-Upload](https://renuo.gitbooks.io/renuo-upload-doc/content/index.html) which is a service that we developed before. Renuo Upload is a microservice which provides an easy way to upload and use uploaded files. Multiple files can be uploaded via drag and drop and can be stored on cloud-storages (for example on Amazon S3).
 
 ## Conclusion
 
